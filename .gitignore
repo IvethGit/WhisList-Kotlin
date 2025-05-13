@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Ignorar archivos de configuración de IDE
+.idea/
+
+*.vscode/
+
+# Archivos generados por Gradle y otros archivos de configuración local
+
+/build/
+
+/externalNativeBuild
+
+
+
+# Archivos sensibles y de configuración
+.env
+secret_config.json
+*.key
+*.jks
+
+# Archivos de compilación
+*.apk
+*.class
+
+# Archivos de logs
+*.log
+app/google-services.json
+google-services.json
+# Ignorar archivos específicos
+app/src/main/java/com/iviapps/whislistbyivi/services/BrevoApi.kt
